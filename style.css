@@ -1,0 +1,218 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Recursive:wght@300..1000&display=swap');
+
+* {
+  font-family: "Poppins", sans-serif;
+  background-color: #232830;
+  color: #ffffff;
+}
+
+.head {
+  display: flex;
+  flex-direction: row;
+  padding-top: 10px;
+  justify-content: space-between;
+  padding: 5px 60px;
+}
+
+.logo {
+  font-size: 20px;
+}
+
+.navbar {
+  display: flex;
+  padding-right: 60px;
+  padding-top: 5px;
+  font-size: 18px;
+}
+
+.nav-link {
+  position: relative;
+}
+
+.body-section {
+  padding: 20px 60px;
+}
+
+.img-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bottom-text {
+  justify-content: center;
+  align-items: center;
+}
+
+.bt-h1 {
+  display: flex;
+  font-family: "Recursive";
+  font-size: 50px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 65.2px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #ff7575;
+  align-items: center;
+  justify-content: center;
+}
+
+.bt-p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Poppins;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 23.5px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.line{
+    border: 3px solid #4D4D4D;
+    width: 100%;
+}
+
+.category-listing{
+    display: grid;
+    grid-template-columns: 12% 88%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.mini-logos{
+    display: flex;
+    justify-content: space-around;
+}
+
+.category-text{
+    display: flex;
+    justify-content: space-between;
+}
+
+.category-text p{
+    font-family: "Recursive";
+    font-style: italic;
+    font-size: 27px;
+    line-height: 20px;
+    color: #909090;
+    padding: 0;
+}
+
+.article-listing{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    flex-wrap: wrap;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    height: 430px;
+    width: 390px;
+    border: 1px solid #252930;
+    border-radius: 22px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15%;
+}
+
+.less-text img{
+    margin-top: calc(5px - 5%);
+}
+
+.less-text h4{
+    padding-right: 20%; 
+}
+
+.less-text h5{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.card-img{
+    display: flex;
+    position: sticky;
+    border-radius: 22px;
+    margin-top: 2%;
+}
+
+.card h4{
+    background-color: inherit;
+    color: #0F1217;
+    flex-wrap: wrap;
+    margin: 10px 20px 0px 30px;
+    font-size: 20px;
+}
+
+.card h5{
+    font-weight: normal;
+    background-color: inherit;
+    color: #0F1217;
+    flex-wrap: wrap;
+    margin: 10px 30px 0px 30px;
+    font-size: 17px;
+}
+
+
+
+.card p{
+    background-color: #ffffff;
+    color: #0F1217;
+    display: flex;
+    margin: 20px 42px 0px 30px;
+}
+
+.card-p{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: transparent;
+}
+
+
+.page-numbers{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    
+}
+
+.page-numbers p{
+    font-family: "Recursive";
+    font-size: 23px;
+    color: #909090;
+    font-style: italic;
+    padding-right: 5%;
+}
+
+.page-numbers .active{
+    color: #FF7575;
+}
+
+.footer{
+    display: flexbox;
+    justify-content: center;
+    padding: 30px 60px;
+}
+
+.footer h3{
+    color: #ffffff;
+}
+
+.footer h4{
+    justify-content: flex-end;
+}
+
+.red-text{
+    color: #FF7575;
+}
+
+
